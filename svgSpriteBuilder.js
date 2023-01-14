@@ -60,8 +60,7 @@ class SvgSpriteBuilder {
    */
   async build( { directory, config } = this.defaultOptions ) {
     const basePath = `${__dirname}`;
-    const args = process.argv.splice( 2 );
-    let dir = directory ? directory : args.filter( item => item.startsWith ( '--directory' ) ).map( item => item.split( '=' ).reverse()[ 0 ] )[ 0 ];
+    let dir = directory ? directory : process.env.npm_config_directory;
 
     if (!dir) {
       console.log( '\n' );
