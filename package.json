@@ -1,0 +1,21 @@
+{
+  "name": "svg-sprite-builder",
+  "version": "1.0.0",
+  "description": "Build svg sprite based on svg's source directory.",
+  "main": "main.js",
+  "scripts": {
+    "build": "node main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "svg",
+    "sprite",
+    "build"
+  ],
+  "author": "Mihai Rusu",
+  "license": "MIT",
+  "dependencies": {
+    "console-log-colors": "^0.3.3",
+    "svg-sprite": "^2.0.2"
+  }
+}
