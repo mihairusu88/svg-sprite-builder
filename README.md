@@ -15,4 +15,4 @@ npm run build --directory={SVG_FILES_DIRECTORY}
 
 ### Check live demo on builded sprite
 
-[Live Demo](https://63c2ac5c3a64450487e13b46--exquisite-shortbread-595813.netlify.app/)
+[Live Demo](https://exquisite-shortbread-595813.netlify.app/)
