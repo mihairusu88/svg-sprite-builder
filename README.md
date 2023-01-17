@@ -13,6 +13,8 @@ npm run build --directory={SVG_FILES_DIRECTORY}
 # Successfully build svg sprite for mode: config.mode in: {config.mode.example.dest}
 ```
 
-### Check live demo on builded sprite
+### Check live demo on netlify
 
-[Live Demo](https://exquisite-shortbread-595813.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/68ed9bc6-74f3-4c50-a33f-8e9251fdbcd4/deploy-status?branch=master)](https://app.netlify.com/sites/svg-sprite-builder/deploys)
+
+[Live Demo](https://svg-sprite-builder.netlify.app/)
